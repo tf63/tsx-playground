@@ -1,0 +1,11 @@
+packages:
+  - "packages/*"
+minimumReleaseAge: 2880
+minimumReleaseAgeExclude:
+  - "next@16.0.10"
+  - "@next/env@16.0.10"
+  - "@next/bundle-analyzer@16.0.10"
+  - "react@19.2.3"
+  - "react-dom@19.2.3"
+  - "@types/react@19.2.3"
+  - "@types/react-dom@19.2.3"
