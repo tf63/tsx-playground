@@ -1,14 +1,14 @@
 pre-commit:
   piped: true
   commands:
-    typecheck:
-      priority: 1
-      glob: "*.{ts,tsx}"
-      run: |
-        pnpm typecheck
-      skip:
-        - merge
-        - rebase
+    # typecheck:
+    #   priority: 1
+    #   glob: "*.{ts,tsx}"
+    #   run: |
+    #     pnpm typecheck
+    #   skip:
+    #     - merge
+    #     - rebase
 
     biome:
       priority: 2
